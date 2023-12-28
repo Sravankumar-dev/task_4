@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,600&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        .input {
+
+            font-size: 15px;
+            border-width: 0px;
+        }
+
+        .input-cart {
+            padding: 10px 20px;
+            border-radius: 10px;
+            width: 300px;
+            border: 1px solid black;
+        }
+
+        .image {
+            width: 65px;
+        }
+
+        .luma {
+            font-size: 30px;
+            font-weight: 700;
+        }
+
+        .headrow {
+            background-color: gray;
+            padding: 15px;
+
+        }
+
+        span {
+            margin-left: 45px;
+
+        }
+
+        .btn {
+            background-color: #0077BD;
+            color: #ffffff;
+            padding: 10px 20px;
+            border: 0;
+            margin-bottom: 25px;
+        }
+
+        .heading_min {
+            padding-top: 15px;
+            margin-bottom: 15px;
+
+        }
+
+        .heading_con {
+            border-bottom: 1px solid black;
+            margin-bottom: 20px;
+            padding: 10px;
+        }
+
+        .min-cart {
+            border: 1px solid black;
+            margin-top: 10px;
+            padding: 10px;
+            margin: 20px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+
+        .min-grey {
+            margin-left: 15px;
+        }
+
+        h5 {
+            padding-bottom: 15px;
+            padding-top: 15px;
+        }
+
+        .price {
+            text-align: end;
+        }
+
+        .date {
+            padding-bottom: 15px;
+            padding-top: 15px;
+        }
+
+        .tick {
+            text-align: center;
+            height: 100px;
+            padding-top: 15px;
+            color: #F9F9F9;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-7 mt-3">
+                <p> <img src="logo.jpg" alt="logo" class="image" />
+                    <span class="luma">LUMA</span>
+                </p>
+            </div>
+            <div class="col-5 mt-3">
+                <div class="input-cart">
+                    <input type="search" class="input" id="search" placeholder="Search entire store here...">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="row">
+            <div class="col-12 headrow">
+                <span>What's
+                    New</span><span>Women</span><span>Men</span><span>Gear</span><span>Training</span><span>Sale</span>
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col-6">
+                <div class="tick">
+                    <img src="tickmark.jpg" alt="tick">
+                </div>
+
+                <h1 class="heading_min">Thank you for your purchase </h1>
+                <p>Your order # is : 00000005.</p>
+                <p>We'll mail you an order information with details and tracking info.</p>
+                <button class="btn">Continue Shopping</button>
+                <h1>Creating account for next time </h1>
+                <p>You can track your order status by creating an account.</p>
+                <p>Email Address: test@tm.com</p>
+                <button class="btn">Continue Shopping</button>
+            </div>
+            <div class="col-6">
+
+                <div class="min-cart">
+                    <div class="heading_con">
+                        <div class="row">
+                            <div class="col"><b>Product Name</b></div>
+                            <div class="col"><b>SKU</b></div>
+                            <div class="col"><b>Price</b></div>
+                            <div class="col"><b>Qnty</b></div>
+                            <div class="col"><b>Subtotal</b></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">Bolo sport watch</div>
+                        <div class="col">24-WG1</div>
+                        <div class="col"><b>$49:00</b></div>
+                        <div class="col">Ordered:1</div>
+                        <div class="col"><b>$49:00</b></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4 min-grey bg-light">
+
+                        </div>
+                        <div class="col-6 bg-light">
+                            <div class="row">
+                                <div class="col-6">Subtotal</div>
+                                <div class="col-6 price">$149:00</div>
+                                <div class="col-6">Shipping & Handling</div>
+                                <div class="col-6 price">$5:00</div>
+                                <div class="col-6">Grand Total</div>
+                                <div class="col-6 price">$154:00</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <p class="date">Ordered Date : Oct 5,2017.</p>
+
+                <h5>Order information</h5>
+                <div class="row">
+                    <div class="col-3">
+                        <p><b>Shipping Address</b></p>
+                        <p>test tm <br>
+                            addr 1 <br>
+                            Paris,paris,000001 <br>
+                            France <br>
+                            T:111:22:33</p>
+                    </div>
+                    <div class="col-3">
+                        <p><b>Shipping Method</b></p>
+                        <p>flat rate - fixed <br></p>
+                    </div>
+                    <div class="col-3">
+                        <p><b>Billing Address</b></p>
+                        <p>test tm <br>
+                            addr 1 <br>
+                            Paris,paris,000001 <br>
+                            France <br>
+                            T:111:22:33</p>
+                    </div>
+                    <div class="col-3">
+                        <p><b>payment Method</b></p>
+                        <p>check/money <br></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+</body>
+
+</html>
